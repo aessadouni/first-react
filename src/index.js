@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "./assets/css/vendor/bootstrap.min.css";
+import "./assets/css/vendor/bootstrap.rtl.only.min.css";
+//import "./assets/css/animate.min.css";
+import "./assets/css/sass/themes/piaf.light.blueolympic.scss";
+import "./assets/fonts/simple-line-icons/css/simple-line-icons.css";
+//import "./assets/css/demo.css";
+//import "./assets/css/pe-icon-7-stroke.css";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <App />,
   document.getElementById('root')
 );
 
